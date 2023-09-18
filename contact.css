@@ -1,0 +1,95 @@
+/* Reset styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+#contact-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#contact-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit,
+#download-button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Form label styles */
+label {
+  font-weight: bold;
+}
+
+/* Container for arranging cards */
+.CarsOnSale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Container for each card */
+.card {
+  width: 400px; /* Fixed width of 400px */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add margin to create space between cards */
+  box-sizing: border-box; /* Ensure padding doesn't affect card width */
+  padding: 10px; /* Add padding inside each card */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Card title styles */
+.card h4 {
+  font-size: 24px; /* Increase the font size for larger cards */
+  margin-top: 10px;
+}
+
+/* Card info styles */
+.card dl {
+  margin-top: 10px;
+  font-size: 18px; /* Increase the font size for larger cards */
+}
+
+/* Button styles */
+.card button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

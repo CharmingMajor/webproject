@@ -1,0 +1,21 @@
+/* Background Image for the Introduction Part*/
+
+.intro {
+    background-image: url("car1.jpg");
+    background-size: 100% auto;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-repeat: no-repeat;
+  }
+/* Text on the Background Image for the Introduction part */
+
+.intro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: #262626;
+}

@@ -1,0 +1,15 @@
+/* Video and text placement */
+.Video {
+    display: flex;
+    align-items: center;
+}
+
+.Video video {
+    max-width: 50%;
+    height: auto;
+}
+
+.IntroductionText {
+    flex: 1;
+    padding-left: 20px;
+}

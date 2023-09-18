@@ -1,0 +1,30 @@
+  /* Section 5 Box */
+  .s5box{
+    padding: 20px;
+}
+  /* Section 5 table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+}
+
+th, td {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    border: 1px solid #f2f2f2;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+  background-color: black; /* Change the background color to black */
+  color: white; /* Add white text color for better visibility on a black background */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  border: 1px solid #f2f2f2;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+/* Body Margin */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #007aff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Logo Styles */
+  .image-link img {
+    max-width: 35px; 
+    height: auto;
+  }
+  
+  /* Copyright Text */
+  footer p {
+    color: white; 
+    margin: 10px 0; 
+  }
+
+  
+  

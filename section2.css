@@ -1,0 +1,61 @@
+/* First Section */
+.section.s1 {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Section Title */
+.section-title {
+  color: #0078d4;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+/* Cards Container */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Individual Card */
+.card {
+  flex: 1;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card Image */
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+/* Card Details */
+.card-details {
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.card-details dt {
+  font-weight: bold;
+}
+
+.card-details dd {
+  margin-top: 5px;
+}
+  
